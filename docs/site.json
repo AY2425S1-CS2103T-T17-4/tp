@@ -16,15 +16,10 @@
     ".git/*",
     "node_modules/*"
   ],
-  "pagesExclude": [
-    "node_modules/*"
-  ],
+  "pagesExclude": ["node_modules/*"],
   "pages": [
     {
-      "glob": [
-        "**/index.md",
-        "**/*.md"
-      ]
+      "glob": ["**/index.md", "**/*.md"]
     }
   ],
   "deploy": {
